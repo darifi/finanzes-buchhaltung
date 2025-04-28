@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanzes & Buchhaltungsservice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Finanzes & Buchhaltungsservice">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Shërbimet</a></li>
+                <li><a href="#about">Rreth Nesh</a></li>
+                <li><a href="#contact">Kontakti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Mirësevini në Finanzes & Buchhaltungsservice</h1>
+            <p>Shërbimet tona të kontabilitetit dhe mbështetje financiare për biznesin tuaj</p>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.jpg" alt="Shërbimi financiar">
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Shërbimet tona</h2>
+        <div class="service-card">
+            <img src="service1.jpg" alt="Kontabiliteti i Financave">
+            <div class="service-info">
+                <h3>Kontabiliteti i Financave</h3>
+                <p>Ofrimi i shërbimeve profesionale të kontabilitetit për menaxhimin e financave të biznesit tuaj.</p>
+            </div>
+        </div>
+        <div class="service-card">
+            <img src="service2.jpg" alt="Konsulencë e Financave">
+            <div class="service-info">
+                <h3>Konsulencë e Financave</h3>
+                <p>Konsulenca dhe mbështetje për strategjitë financiare dhe planifikimin e tatimeve.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Rreth Nesh</h2>
+        <p>Ne jemi një kompani e specializuar në ofrimin e shërbimeve të kontabilitetit për individë dhe biznese. Misioni ynë është të sigurojmë mbështetje të besueshme dhe profesionale në menaxhimin e financave tuaja.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakti</h2>
+        <p>Për më shumë informacion, mund të na kontaktoni përmes formularit më poshtë ose përmes emailit:</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Emri</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mesazhi</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Dërgo</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Finanzes & Buchhaltungsservice. Të drejtat e rezervuara.</p>
+    </footer>
+</body>
+</html>
